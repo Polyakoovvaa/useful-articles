@@ -9,6 +9,9 @@ body{
     color: black;
     background: #E3F3F2;
 }
+main{
+    margin: 22px;
+}
 header{
     background: url(img/dlfkgflkg.png);
 }
@@ -17,7 +20,7 @@ header{
     justify-content: center;
     margin: 0 auto;
     padding-top: 65px;
-    width: 13%;
+    max-width: 80%;
 }
 .header_title{
     display: flex;
@@ -29,13 +32,14 @@ header{
     font-size: 36px;
     line-height: 54px;
     text-align: center;
-    padding-bottom: 136px;
+    padding-bottom: 66px;
     margin-top: 42px;
 }
+
 .photo12{
     display: block; 
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
 }
 .main_text{
     max-width: 1000px;
@@ -159,84 +163,56 @@ iframe{
     text-decoration: none;
     color: black;
 }
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
     .logo{
-        width: 20%;
+        max-width: 34%;
     }
+    hr{
+        width: 36%;
+    }
+}
+@media screen and (max-width: 770px) {
     main{
         margin: 22px;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .logo{
-        width: 25%;
+    header{
+        background: url(img/fon2.png);
     }
     .header_title{
         font-size: 32px;
-        margin-bottom: -22px;
+        line-height: 40px;
+    }
+    hr{
+        width: 32%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .footer_title{
+        font-size: 12px;
     }
     main{
         margin: 22px;
     }
-    .photo12{
-        width: 80%;
-    }
-}
-@media screen and (max-width: 430px) {
-    .logo{
-        width: 35%;
+    header{
+        background: url(img/fon2.png);
     }
     .header_title{
-        font-size: 28px;
-        line-height: 32px;
-        margin-bottom: -32px;
+        font-size: 24px;
+        line-height: 36px;
+        margin: 10px;
+        margin-bottom: -53px;
     }
-    .footer_title{
-        font-size: 14px;
-    }
-    .footer_adress{
-        font-size: 15px;
-    }
-    .telephone{
-        width: 40%;
-        font-size: 12px;
+    hr{
+        width: 26%;
     }
 }
-@media screen and (max-width: 380px) {
-    .logo{
-        width: 40%;
+@media screen and (max-width: 510px) {
+    hr{
+        width: 23%;
     }
-    .photo12{
-        width: 100%;
+}
+@media screen and (max-width: 340px) {
+    hr{
+        width: 17%;
     }
-    .header_title{
-        font-size: 20px;
-        line-height: 32px;
-        margin-bottom: -60px;
-    }
-    .footer_title{
-        font-size: 12px;
-    }
-    .footer_adress{
-        font-size: 15px;
-    }
-    .telephone{
-        width: 40%;
-        font-size: 12px;
-    }
-    .ask_title{
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    p{
-        font-size: 14px;
-        line-height: 30px;
-    }
-    .podtext{
-        font-size: 14px;
-        line-height: 30px;
-    }
-
 }
