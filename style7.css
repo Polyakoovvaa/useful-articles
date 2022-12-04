@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=League+Spartan:wght@100;300;600;800;900&family=Montserrat+Alternates:ital,wght@0,500;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=League+Spartan:wght@100;300;600;800;900&family=Montserrat+Alternates:ital,wght@0,700;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background: #E3F3F2;
+}
+header{
+    background: url(img/dlfkgflkg.png);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 65px;
+    width: 13%;
+}
+.header_title{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 749px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    padding-bottom: 136px;
+    margin-top: 42px;
+}
+.photo16{
+    display: block; 
+    margin: 0 auto;
+    width: 50%;
+}
+.main_text{
+    max-width: 1000px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.podtext{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+    padding-bottom: 33px;
+}
+.ask_title{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    margin-bottom: 33px;
+}
+ul{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+    margin-bottom: 33px;
+    margin-left: 44px;
+}
+p {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+    margin-bottom: 33px;
+}
+
+footer{
+    background-color: #fff;
+    
+}
+.footer_title{
+    max-width: 545px;
+    font-family: "Montserrat Alternates";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 52px;
+    padding-bottom: 32px;
+}
+.adress{
+    display: flex;
+    max-width: 1262px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+hr{
+    width: 35%;
+    display: flex;
+}
+.footer_adress{
+    max-width: 30%;
+    font-family: 'Montserrat Alternates';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.telephone{
+    font-family: 'Montserrat Alternates';
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 315px;
+    height: 37px;
+    background: #E3F3F2;
+    border-radius: 78px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 8px;
+    margin-top: 28px;
+    color: black;
+}
+iframe{
+    margin-top: 55px;
+    width: 100%;
+    height: 555px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 158px;
+    width: 90%;
+}
+.txt{
+    max-width: 469px; 
+    font-family: 'Montserrat Alternates';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    
+}
+.sslka{
+    max-width: 122px;
+    font-family: 'Montserrat Alternates';
+    font-style: italic;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 66px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo{
+        width: 20%;
+    }
+    main{
+        margin: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 28%;
+    }
+    .header_title{
+        font-size: 32px;
+        margin-bottom: -22px;
+    }
+    main{
+        margin: 22px;
+    }
+    .photo16{
+        width: 80%;
+    }
+    hr{
+        max-width: 240px;
+    }
+}
+@media screen and (max-width: 713px) {
+    .footer_adress{
+        width: 155px;
+    }
+    hr{
+        max-width: 90px;
+    }
+}
+@media screen and (max-width: 756px){
+    header{
+        background: url(img/FON222.png);
+    }
+}
+@media screen and (max-width: 430px) {
+    header{
+        background: url(img/fon380.png);
+    }
+    .logo{
+        width: 35%;
+    }
+    .header_title{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: -32px;
+    }
+    .footer_title{
+        font-size: 14px;
+    }
+    .footer_adress{
+        font-size: 15px;
+    }
+    .telephone{
+        width: 40%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 380px) {
+    header{
+        background: url(img/fon380.png);
+    }
+    .logo{
+        width: 40%;
+    }
+    .photo17{
+        width: 100%;
+    }
+    .header_title{
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: -60px;
+    }
+    .footer_title{
+        font-size: 12px;
+    }
+    .footer_adress{
+        font-size: 15px;
+    }
+    .telephone{
+        width: 40%;
+        font-size: 12px;
+    }
+    .ask_title{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .podtext{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    hr{
+        max-width: 44px;
+    }
+
+}
+@media screen and (max-width: 1040px) {
+    .photo17{
+        width: 90%;
+    }
+}
